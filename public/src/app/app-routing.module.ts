@@ -8,15 +8,16 @@ import { WolvesComponent } from './wolves/wolves.component';
 import { SeattleComponent } from './seattle/seattle.component';
 
 const routes: Routes = [
-  {path: 'sanjose', component: SanjoseComponent},
-  {path: 'manchester', component: ManchesterComponent},
-  {path: 'leicester', component: LeicesterComponent},
-  {path: 'wolves', component: WolvesComponent},
-  {path: 'seattle', component: SeattleComponent},
+    {path: 'sanjose', component: SanjoseComponent},
+    {path: 'manchester', component: ManchesterComponent},
+    {path: 'leicester', component: LeicesterComponent},
+    {path: 'wolves', component: WolvesComponent},
+    {path: 'sanjose', component: SeattleComponent},
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+    imports: [RouterModule.forRoot(routes)],
+    exports: [RouterModule]
 })
+
 export class AppRoutingModule { }
