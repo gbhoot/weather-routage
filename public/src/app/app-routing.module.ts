@@ -12,7 +12,7 @@ const routes: Routes = [
     {path: 'manchester', component: ManchesterComponent},
     {path: 'leicester', component: LeicesterComponent},
     {path: 'wolves', component: WolvesComponent},
-    {path: 'sanjose', component: SeattleComponent},
+    {path: 'seattle', component: SeattleComponent},
 ];
 
 @NgModule({
